@@ -1,0 +1,12 @@
+{
+  "keyword_groups": {
+    "description": "开启关键词回复的群",
+    "type": "list",
+    "default": [],
+    "invisible": true,
+    "hint": "要开启关键词回复的群号，按条添加。空名单则都不开。",
+    "items": {
+      "type": "string"
+    }
+  }
+}

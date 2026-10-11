@@ -7,10 +7,10 @@ AstrBot 插件：群关键词回复。用中文交流。
 
 ## 当前状态
 
-本仓库当前只有包骨架，**还不是可安装的 AstrBot 插件**：
+本仓库已有实体、存储与配置 schema，**仍不是可安装的 AstrBot 插件**：
 
-- 已有：根包 `__init__.py`、`entity/`、`data/`、`business/`、`tests/` 包入口、`pyproject.toml`（ruff 配置）、空 `requirements.txt`。
-- 未建：`main.py`、`metadata.yaml`、`_conf_schema.json`、数据库与业务代码、控制台页面。这些按任务清单后续补齐。
+- 已有：根包 `__init__.py`、`entity/`（常量与数据形状）、`data/`（SQLite 存储，库名固定 `keyword_reply.db`）、`_conf_schema.json`（只有 `keyword_groups` 一个键）、`business/` 与 `tests/` 包入口、`pyproject.toml`（ruff 配置）、空 `requirements.txt`。
+- 未建：`main.py`、`metadata.yaml`、业务代码与控制台页面，所以宿主现在还装不上、也没有页面。这些按任务清单后续补齐。
 
 ## 依赖
 
